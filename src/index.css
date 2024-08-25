@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  tr{
+  border: 1px solid #000;
+  }
+  th {
+    border: 1px solid #000;
+  }
+  td {
+    border: 1px solid #000;
+  }
+  input{
+    border: 1px solid #000;
+  }
+}

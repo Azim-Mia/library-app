@@ -1,10 +1,11 @@
+import Books from '../src/component/books/books';
+import Heading from '../src/component/libraryHeading.jsx';
 import './App.css';
 function App() {
   return (
     <div className="App">
-<h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+   <div><Heading /></div> 
+<div className="flex justify-center"><Books /></div>
     </div>
   );
 }
