@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    <a href="/library-app">Home</a>
    <div><Heading /></div> 
 <div className="flex justify-center"><Books /></div>
     </div>
